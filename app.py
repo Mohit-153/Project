@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import pandas as pd
 df = pd.read_csv("students.csv")
 print(df.head(10))
@@ -192,7 +191,6 @@ if predict:
         
         
         
-=======
 import pandas as pd
 df = pd.read_csv("students.csv")
 print(df.head(10))
@@ -281,8 +279,7 @@ else:
     
     
     
-    
-import streamlit as st 
+import streamlit as st
 import pandas as pd
 import joblib
 
@@ -382,5 +379,4 @@ if predict:
     if prediction[0] == 1:
         st.success("Student Intelligence: HIGH")
     else:
-        st.error("Student Intelligence: LOW")
->>>>>>> fce3188ec4fd1a65e6c9faf4c566655962926403
+        st.error("Student Intelligence: LOW")    
